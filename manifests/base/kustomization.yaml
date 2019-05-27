@@ -1,0 +1,11 @@
+resources:
+  - azure-vote-back-deployment.yaml
+  - azure-vote-back-service.yaml
+  - azure-vote-front-deployment.yaml
+  - azure-vote-front-ingress.yaml
+  - azure-vote-front-service.yaml
+  - traefik-ingress-controller-clusterrolebinding.yaml
+  - traefik-ingress-controller-clusterrole.yaml
+  - traefik-ingress-controller-deployment.yaml
+  - traefik-ingress-controller-service-account.yaml
+  - traefik-ingress-controller-service.yaml
