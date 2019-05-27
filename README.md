@@ -14,5 +14,9 @@ everything is created in the right order.
 You can deploy this application with the following command:
 
 ```sh
+# Bring it up in Minikube
 kubectl kustomize manifests/overlays/minikube/ | kubectl apply -f -
+
+# Bring it up on Azure
+kubectl kustomize manifests/overlays/aks/ | kubectl apply -f -
 ```
