@@ -5,7 +5,4 @@ metadata:
   namespace: kube-system
 spec:
   type: LoadBalancer
-status:
-  loadBalancer:
-    ingress:
-    - ip: 40.85.218.68
+  loadBalancerIP: 52.138.16.103
