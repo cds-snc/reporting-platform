@@ -4,5 +4,8 @@ metadata:
   name: traefik-ingress-service
   namespace: kube-system
 spec:
-  type: LoadBalancer
-  loadBalancerIP: 52.138.16.103
+  type: NodePort
+  ports:
+    - name: admin
+      port: 8080
+      protocol: TCP
