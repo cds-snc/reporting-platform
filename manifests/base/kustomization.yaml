@@ -9,6 +9,8 @@ resources:
 - traefik-ingress-controller-deployment.yaml
 - traefik-ingress-controller-service-account.yaml
 - traefik-ingress-controller-service.yaml
+- sealed-secrets-controller-deployment.yaml
+- sealed-secrets-crd.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
