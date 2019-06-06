@@ -11,6 +11,11 @@ resources:
 - traefik-ingress-controller-service.yaml
 - sealed-secrets-controller-deployment.yaml
 - sealed-secrets-crd.yaml
+- arango-claim.yaml
+- arangodb-deployment.yaml
+- arangodb-service.yaml
+- arango-secrets.yaml
+- cybercrime-api-namespace.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
