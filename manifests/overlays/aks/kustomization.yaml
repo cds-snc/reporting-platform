@@ -4,7 +4,7 @@ patchesStrategicMerge:
 - traefik-ingress-controller-deployment.yaml
 - azure-vote-front-ingress.yaml
 - traefik-ingress-controller-service.yaml
-- arango-claim.yaml
+- cybercrime-api-ingress.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
