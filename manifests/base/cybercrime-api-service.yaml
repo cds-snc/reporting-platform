@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: cybercrime-api
+  name: cybercrime-api
+spec:
+  ports:
+    - name: api-port
+      port: 3000
+      targetPort: 3000
+  selector:
+    app: cybercrime-api
+  type: ClusterIP
+status:
+  loadBalancer: {}
