@@ -49,7 +49,7 @@ decrypted:
 
 ```bash
 kubectl create secret tls sealed-secrets-key \
-  --key=private.key --cert=public.crt
+  --key=private.key --cert=public.crt \
   --namespace=kube-system
 ```
 
