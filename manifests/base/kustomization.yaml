@@ -1,9 +1,4 @@
 resources:
-- azure-vote-back-deployment.yaml
-- azure-vote-back-service.yaml
-- azure-vote-front-deployment.yaml
-- azure-vote-front-ingress.yaml
-- azure-vote-front-service.yaml
 - traefik-ingress-controller-clusterrolebinding.yaml
 - traefik-ingress-controller-clusterrole.yaml
 - traefik-ingress-controller-deployment.yaml
@@ -23,6 +18,10 @@ resources:
 - minio-secrets.yaml
 - minio-service.yaml
 - cybercrime-api-ingress.yaml
+- cybercrime-frontend-deployment.yaml
+- cybercrime-frontend-ingress.yaml
+- cybercrime-frontend-namespace.yaml
+- cybercrime-frontend-service.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
